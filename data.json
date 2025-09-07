@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id":1,
+            "title": "",
+            "price":[
+                {
+                    "original_price": 27281,
+                    "discounted_price": 2111
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "title" : ""
+        }
+    ]
+}
