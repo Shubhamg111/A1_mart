@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from './App'
-import First from './First'
+
 import Layout from './pages/Layout'
 import Homepage from './pages/Homepage'
 import About from './pages/About'
@@ -10,7 +9,6 @@ import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
 import Register from './pages/Register'
-import ProductView from './pages/ProductView'
 
 const Myrouter = () => {
   return (
