@@ -1,0 +1,525 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title": "Consectetur hampden omnis perspiciatis",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+            "quantity":998,
+            "rating":5,
+            "reference":"product1",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":104.86,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products11.jpg",
+                "/images/products12.jpg",
+                "/images/products13.jpg",
+                "/images/products14.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products11.jpg"
+        },
+
+         {
+            "id":2,
+            "title": "Exercitat virginia voluptates repudiandae accusamus",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":995  ,
+            "rating":0,
+            "reference":"product2",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":109.86,
+                    "tax":20
+                }
+            ,
+            "stock": "In stock",
+            "image":[
+                "/images/products21.jpg",
+                "/images/products12.jpg",
+                "/images/products13.jpg",
+                "/images/products14.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products21.jpg"
+        },
+      
+         {
+            "id":3,
+            "title": "Accusanti doloremq harum quidem rerum",
+            "description":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+            "quantity":994  ,
+            "rating":4,
+            "reference":"product3",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":130.86,
+                    "tax":20
+                }
+            ,
+            "stock": "In stock",
+            "image":[
+                "/images/products32.jpg",
+                "/images/products12.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products32.jpg"
+        },
+
+                {
+            "id":4,
+            "title": "Voluptas assumenda nostrum exercitationem",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":997 ,
+            "rating":5,
+            "reference":"product4",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":100.00,
+                    "tax":20
+                },
+            
+            "stock": "In stock",
+            "image":[
+                "/images/products32.jpg",
+                "/images/products41.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products41.jpg"
+        },
+
+             {
+            "id":5,
+            "title": "Commodi consequatur asdic renaissance",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "quantity":997 ,
+            "rating":0,
+            "reference":"product5",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":96.00,
+                    "tax":5
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products11.jpg",
+                "/images/products41.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products11.jpg"
+        },
+
+             {
+            "id":6,
+            "title": "Voluptas assumenda nostrum exercitationem",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+            "quantity":999 ,
+            "rating":4.5,
+            "reference":"product6",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":96.00,
+                    "tax":11
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products14.jpg",
+                "/images/products41.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products14.jpg"
+        },
+
+             {
+            "id":7,
+            "title": "Praesentium voluptatum assumenda quibusdam",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":998,
+            "rating":3,
+            "reference":"product7",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":79.00,
+                    "tax":4
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products12.jpg",
+                "/images/products41.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products12.jpg"
+        },
+
+             {
+            "id":8,
+            "title": "Voluptates repudia temporibus perferendis",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+            "quantity":0,
+            "rating":5,
+            "reference":"product8",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":105.00,
+                    "tax":20
+                },
+            "stock": "Out of stock",
+            "image":[
+                "/images/products16.jpg",
+                "/images/products41.jpg",
+                "/images/products13.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products11.jpg"
+        ],
+        "thumbnail": "/images/products16.jpg"
+        },
+
+             {
+            "id":9,
+            "title": "Nostrud exercitation dolorem voluptatem accusantium",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":999 ,
+            "rating":5,
+            "reference":"product9",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":99.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products91.jpg",
+                "/images/products92.jpg",
+                "/images/products93.jpg",
+                "/images/products94.jpg",
+                "/images/products95.jpg",
+                "/images/products96.jpg"
+        ],
+        "thumbnail": "/images/products91.jpg"
+        },
+
+             {
+            "id":10,
+            "title": "Voluptas assumenda nostrum exercitationem",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":0,
+            "rating":0,
+            "reference":"product10",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":83.00,
+                    "tax":20
+                },
+            "stock": "Out of stock",
+            "image":[
+                "/images/products101.jpg",
+                "/images/products95.jpg",
+                "/images/products11.jpg",
+                "/images/products92.jpg",
+                "/images/products14.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products101.jpg"
+        },
+
+             {
+            "id":11,
+            "title": "Occaecat voluptas volu accusantium doloremque",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":996 ,
+            "rating":4,
+            "reference":"produc11",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":95.00,
+                    "tax":9
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products111.jpg",
+                "/images/products112.jpg",
+                "/images/products113.jpg",
+                "/images/products114.jpg",
+                "/images/products115.jpg",
+                "/images/products116.jpg"
+        ],
+        "thumbnail": "/images/products111.jpg"
+        },
+
+             {
+            "id":12,
+            "title": "Laudant doloremque magnam aliqu quaerat",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "quantity":996,
+            "rating":4,
+            "reference":"product12",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":115.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products16.jpg",
+                "/images/products13.jpg",
+                "/images/products11.jpg",
+                "/images/products12.jpg",
+                "/images/products14.jpg",
+                "/images/products15.jpg"
+        ],
+        "thumbnail": "/images/products16.jpg"
+        },
+
+             {
+            "id":13,
+            "title": "Occasion praesentium santium alteration",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+            "quantity":999 ,
+            "rating":0,
+            "reference":"product13",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":91.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products15.jpg",
+                "/images/products32.jpg",
+                "/images/products92.jpg",
+                "/images/products111.jpg",
+                "/images/products101.jpg",
+                "/images/products16.jpg"
+        ],
+        "thumbnail": "/images/products15.jpg"
+        },
+
+             {
+            "id":14,
+            "title": "Occasion repeat predefine chunk simply",
+            "description":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+            "quantity":1000,
+            "rating":5,
+            "reference":"product14",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":99.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products141.jpg",
+                "/images/products142.jpg",
+                "/images/products13.jpg",
+                "/images/products144.jpg",
+                "/images/products145.jpg",
+                "/images/products146.jpg"
+        ],
+        "thumbnail": "/images/products141.jpg"
+        },
+
+             {
+            "id":15,
+            "title": "Voluptas assume nostrum hamp-sydney",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":0 ,
+            "rating":5,
+            "reference":"product15",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":100.00,
+                    "tax":20
+                },
+            "stock": "Out of stock",
+            "image":[
+                "/images/products151.jpg",
+                "/images/products152.jpg",
+                "/images/products153.jpg",
+                "/images/products36.jpg",
+                "/images/products15.jpg",
+                "/images/products116.jpg"
+        ],
+        "thumbnail": "/images/products151.jpg"
+        },
+
+             {
+            "id":16,
+            "title": "Consectetur hampden omnis perspiciatis",
+            "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+            "quantity":100 ,
+            "rating":4.5,
+            "reference":"product16",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":150.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products142.jpg",
+                "/images/products92.jpg",
+                "/images/products12.jpg",
+                "/images/products32.jpg",
+                "/images/products152.jpg",
+                "/images/products112.jpg"
+        ],
+        "thumbnail": "/images/products142.jpg"
+        },
+
+             {
+            "id":17,
+            "title": "Voluptas assumenda nostrum exercitationem",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":555 ,
+            "rating":2.5,
+            "reference":"product17",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":199.00,
+                    "tax":20
+                },
+            "stock": "In stock",
+            "image":[
+                "/images/products114.jpg",
+                "/images/products111.jpg",
+                "/images/products41.jpg",
+                "/images/products11.jpg",
+                "/images/products101.jpg",
+                "/images/products151.jpg"
+        ],
+        "thumbnail": "/images/products114.jpg"
+        },
+
+             {
+            "id":18,
+            "title": "Voluptas assumenda nostrum exercitationem",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":0 ,
+            "rating":3.6,
+            "reference":"product18",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":500.00,
+                    "tax":20
+                },
+            "stock": "Out of stock",
+            "image":[
+                "/images/products16.jpg",
+                "/images/products36.jpg",
+                "/images/products96.jpg",
+                "/images/products116.jpg",
+                "/images/products146.jpg",
+                "/images/products111.jpg"
+        ],
+        "thumbnail": "/images/products16.jpg"
+        },
+        
+             {
+            "id":19,
+            "title": "Praesentium voluptatum assumenda quibusdam",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":10 ,
+            "rating":4,
+            "reference":"product19",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":100.00,
+                    "tax":20
+                },
+            "stock": "Limited stock",
+            "image":[
+                "/images/products93.jpg",
+                "/images/products36.jpg",
+                "/images/products113.jpg",
+                "/images/products153.jpg",
+                "/images/products32.jpg",
+                "/images/products144.jpg"
+        ],
+        "thumbnail": "/images/products93.jpg"
+        },
+
+             {
+            "id":20,
+            "title": "Occaecat voluptas volu accusantium doloremque",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "quantity":0 ,
+            "rating":5,
+            "reference":"product20",
+            "condition":"New product",
+            "returnPolicy": "No return policy",
+            "price":
+                {
+                    "marketvalue":30.00,
+                    "tax":20
+                },
+            "stock": "Out of stock",
+            "image":[
+                "/images/products153.jpg",
+                "/images/products15.jpg",
+                "/images/products151.jpg",
+                "/images/products145.jpg",
+                "/images/products115.jpg",
+                "/images/products95.jpg"
+        ],
+        "thumbnail": "/images/products153.jpg"
+        }
+    ]
+}

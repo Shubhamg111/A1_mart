@@ -10,6 +10,7 @@ import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
 import Register from './pages/Register'
+import ProductView from './pages/ProductView'
 
 const Myrouter = () => {
   return (
@@ -23,6 +24,8 @@ const Myrouter = () => {
                 <Route path='/productdetails/:product_id' element={<ProductDetails/>} />
                 <Route path='/cart' element={<Cart/>} />
                 <Route path='/register' element={<Register/>} />
+                <Route path='/productview/:product_id' element={<ProductView/>} />
+
             </Route>
 
             <Route path='/hook' element={<Counter/>} />

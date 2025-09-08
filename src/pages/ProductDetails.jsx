@@ -5,20 +5,18 @@ import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Swal from 'sweetalert2'
 import Rating from '../components/Rating';
-
+import Data from '../../public/data.json'
 
 const ProductDetails = () => {
-    const [product, setProduct] = useState({})
+
     const [qty, setQty] = useState(1)
     const params  = useParams()
     let pid  = params.product_id
 
-    useEffect(() => {
-      axios.get(`https://dummyjson.com/products/${pid}`)
-        .then(res => setProduct(res.data))
-        .catch(err => console.log('Axios is not working.'))
-    }, [])
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+ 
+       const product = Data.products.find((item)=>item.id == pid)
+
+      const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 
     const decrease=()=>{
@@ -47,9 +45,8 @@ const ProductDetails = () => {
         title : product.title,
         category: product.category,
         quantity : qty,
-        price : product.price,
+        price : product.price.marketvalue,
         image: product.thumbnail,
-        discount: product.discountPercentage
       }
 
       // check if the item is already exist or not
@@ -97,18 +94,18 @@ const ProductDetails = () => {
         className="mySwiper2"
       >
         {
-          product.images && product.images.length > 1?
+          product.image && product.image.length > 1?
         <SwiperSlide>
-          <img src={product.images[0]} />
+          <img src={product.image[0]} />
         </SwiperSlide>:
         <SwiperSlide>
-          <img src={product.images} />
+          <img src={product.image} />
         </SwiperSlide>
         } 
         {
-          product.images && product.images.length > 1?
+          product.image && product.image.length > 1?
         <SwiperSlide>
-          <img src={product.images[1]} />
+          <img src={product.image[1]} />
         </SwiperSlide>: ''
         }
         
@@ -124,16 +121,16 @@ const ProductDetails = () => {
         className="mySwiper"
       >
         {
-          product.images && product.images.length > 1?
+          product.image && product.image.length > 1?
         <SwiperSlide>
-          <img src={product.images[0]} className='border' />
+          <img src={product.image[0]} className='border' />
         </SwiperSlide>:
         <SwiperSlide>
-          <img src={product.images} className='border' />
+          <img src={product.image} className='border' />
         </SwiperSlide>
         } 
         {
-          product.images && product.images.length > 1? <SwiperSlide><img src={product.images[1]} className='border' /></SwiperSlide>: ''
+          product.image && product.image.length > 1? <SwiperSlide><img src={product.image[1]} className='border' /></SwiperSlide>: ''
         }
         
         
@@ -149,8 +146,8 @@ const ProductDetails = () => {
               <hr />
               <p className='text-secondary'><span className='fw-bold'>Size : </span>S | M | L</p>
               <p className='text-secondary fs-5'><span className='fw-bold'>Price : $ </span>
-              <del>{product.price}</del>
-              <span className='text-success ms-2'>{product.price}</span>
+              <del>{product.price.marketvalue}</del>
+              <span className='text-success ms-2'>{product.price.marketvalue}</span>
               </p>
 
               <p className='fw-bold mb-1'>Quantity :</p>

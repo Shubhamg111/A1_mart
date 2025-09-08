@@ -1,23 +1,22 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Swal from 'sweetalert2'
-
+import Data from '../../public/data.json'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import Slider from '../components/Slider'
 import Card from '../components/Card';
-import axios from 'axios';
 
 const Homepage = () => {
   const [products,setProducts] = useState([])
 
-  axios.get('https://dummyjson.com/products')
-  .then(res => setProducts(res.data.products))
-  .catch(err => console.log('Axios is not working.'))
-
+  
+  useEffect(()=>{
+    setProducts(Data.products)
+  },[])
   
   return (
     <>
@@ -118,6 +117,7 @@ const Homepage = () => {
             {
               products.slice(0,4).map((items,i)=>(
                 <Card data = {items} key={i} />
+                
               ))
             }
         </div>
