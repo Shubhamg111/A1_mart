@@ -24,7 +24,6 @@ const Myrouter = () => {
                 <Route path='/productdetails/:product_id' element={<ProductDetails/>} />
                 <Route path='/cart' element={<Cart/>} />
                 <Route path='/register' element={<Register/>} />
-                <Route path='/productview/:product_id' element={<ProductView/>} />
 
             </Route>
 
